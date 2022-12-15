@@ -1,0 +1,111 @@
+body {
+    position: relative;
+}
+
+.chiante {
+    height: 1000px;
+    background: linear-gradient(to bottom, #00C9FF 19%, #92FE9D 69%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carte {
+    max-width: 65vw;
+    min-width: 55vw;
+    ;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+#image img {
+    height: auto;
+    width: 300px;
+}
+
+.infos {
+    display: flex;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Sigmar One', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    opacity: 30%;
+}
+
+.logo ul {
+    padding-left: 0;
+}
+
+.logo ul li {
+    width: 20px;
+    height: auto;
+    list-style-type: none;
+    padding-bottom: 12px;
+    color: #00C9FF;
+}
+
+i {
+    font-size: 24px;
+}
+
+.info1 ul li {
+    width: auto;
+    list-style-type: none;
+    padding-bottom: 16px;
+}
+
+.info1 ul {
+    padding-left: 10px;
+}
+
+.reseauSociaux ul {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.reseauSociaux ul li {
+    width: auto;
+    list-style-type: none;
+}
+
+.reseauSociaux ul {
+    justify-content: left;
+    justify-content: space-between;
+}
+
+.reseauSociaux ul li img {
+    width: 30px;
+    opacity: 50%;
+}
+
+.reseauSociaux ul li a :hover {
+    filter: brightness(1.5);
+    transform: scale(1.2);
+}
+
+
+
+footer {
+    color: #1a90b0;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 100vw
+}
